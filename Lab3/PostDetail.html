@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết bài viết</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="Index.html">
+                <img src="images/logo-energy-pilates.png" alt="Logo" style="width:150px;">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Post.html">
+                            <i class="fa-solid fa-list"></i> Bài viết
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-film"></i> Video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-circle-info"></i> Giới thiệu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-calendar-days"></i> Sự kiện</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CONTENT -->
+    <div class="container mt-4">
+        <div class="row">
+
+            <!-- LEFT: POST DETAIL -->
+            <main class="col-md-8">
+
+                <h4 class="text-info fw-bold mb-3">
+                    Phương pháp tập Pilates giúp phục hồi chấn thương cột sống
+                </h4>
+
+                <img src="images/tap-piltes.jpg" class="img-fluid rounded mb-3" alt="Pilates">
+
+                <p>
+                    Tập Pilates có thể được sử dụng như một phương pháp vật lý trị liệu để giúp cải thiện
+                    chức năng cột sống, giảm đau lưng và hỗ trợ phục hồi sau chấn thương.
+                </p>
+
+                <p>
+                    Pilates tập trung vào việc kiểm soát chuyển động, tăng cường cơ lõi, cải thiện sự linh hoạt
+                    và cân bằng cho cơ thể.
+                </p>
+
+                <h5 class="fw-bold mt-4">
+                    Pilates giúp phục hồi chấn thương cột sống nhanh chóng
+                </h5>
+
+                <p>
+                    Các bài tập Pilates nhẹ nhàng giúp tăng sức mạnh cơ bắp mà không gây áp lực lên cột sống,
+                    từ đó giúp người tập phục hồi an toàn và hiệu quả.
+                </p>
+
+                <img src="images/tap-pilates1.jpg" class="img-fluid rounded my-3" alt="Pilates Studio">
+
+                <h6 class="fw-bold mt-4">Phương pháp tập Pilates Cat Cow</h6>
+                <ul>
+                    <li>Giúp làm mềm cột sống</li>
+                    <li>Giảm đau lưng hiệu quả</li>
+                    <li>Tăng cường sự linh hoạt</li>
+                </ul>
+
+                <p>
+                    Đây là bài tập phù hợp cho người mới bắt đầu và người đang trong quá trình phục hồi chấn thương.
+                </p>
+
+            </main>
+
+            <!-- RIGHT: COMMENT -->
+            <aside class="col-md-4">
+
+                <h5 class="text-black fw-bold mb-3">
+                    Bình luận bài viết
+                </h5>
+
+                <!-- FORM COMMENT -->
+                <form class="mb-4">
+                  
+                    <div class="mb-3">
+                        <textarea class="form-control" rows="3" placeholder="Nội dung bình luận"></textarea>
+                    </div>
+                    <button class="btn btn-info text-white w-100">
+                        Gửi bình luận
+                    </button>
+                </form>
+
+                <!-- COMMENT LIST -->
+                <div class="border rounded p-3">
+                    <h6 class="fw-bold mb-3">Danh sách bình luận</h6>
+
+                    <div class="mb-3">
+                        <strong>Nguyễn Văn A</strong>
+                        <p class="mb-1 small">
+                            Bài viết rất hay và bổ ích cho người đau lưng.
+                        </p>
+                    </div>
+
+                    <div class="mb-3">
+                        <strong>Trần Thị B</strong>
+                        <p class="mb-1 small">
+                            Các bài tập rất dễ hiểu, cảm ơn tác giả.
+                        </p>
+                    </div>
+                </div>
+
+            </aside>
+        </div>
+    </div>
+
+    <!-- BOOTSTRAP JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
