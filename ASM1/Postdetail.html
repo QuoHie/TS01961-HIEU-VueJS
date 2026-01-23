@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel=" stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom">
+        <div class="container">
+
+            <a class="navbar-brand" href="Index.html">
+                <img src="images/kfc.png" alt="Logo" style="width:80px;">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-semibold" href="Post.html">
+                            <i class="fa-solid fa-list"></i> Thực đơn
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-semibold" href="Sale.html">
+                            <i class="fa-solid fa-film"></i> Khuyến mãi
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-semibold" href="#">
+                            <i class="fa-solid fa-circle-info"></i> Dịch vụ tiệc
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-semibold" href="#">
+                            <i class="fa-solid fa-calendar-days"></i> Hệ thống nhà hàng
+                        </a>
+                    </li>
+
+                </ul>
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-semibold">English</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark fw-semibold" href="#" role="button"
+                            data-bs-toggle="dropdown">
+                            <i class="fa-solid fa-user"></i> Tài khoản
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Đăng nhập</a></li>
+                            <li><a class="dropdown-item" href="#">Quên mật khẩu</a></li>
+                            <li><a class="dropdown-item" href="#">Đăng ký thành viên</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- CONTENT -->
+    <div class="container mt-4">
+        <div class="row">
+
+            <!-- LEFT: POST DETAIL -->
+            <main class="col-md-8">
+
+                <h4 class="text-danger fw-bold mb-3">
+                    Combo Rực Rỡ – Giòn rụm hấp dẫn, giá ưu đãi
+                </h4>
+
+                <img src="images/1.4.jpg" class="img-fluid rounded mb-3" alt="Combo gà rán">
+
+                <p>
+                    Combo Rực Rỡ là sự kết hợp hoàn hảo giữa những miếng gà rán giòn tan,
+                    được chế biến từ nguyên liệu tươi ngon và công thức ướp gia vị đặc trưng.
+                </p>
+
+                <p>
+                    Món ăn mang đến hương vị đậm đà, lớp vỏ giòn rụm bên ngoài và thịt gà
+                    mềm ngọt bên trong, phù hợp cho mọi lứa tuổi.
+                </p>
+
+                <h5 class="fw-bold mt-4">
+                    Thành phần có trong Combo Rực Rỡ
+                </h5>
+
+                <p>
+                    Combo bao gồm gà rán truyền thống kết hợp cùng nước uống mát lạnh,
+                    giúp bữa ăn thêm trọn vẹn và hấp dẫn hơn.
+                </p>
+
+                <img src="images/1.6.jpg" class="img-fluid rounded my-3" alt="Gà rán giòn">
+
+                <h6 class="fw-bold mt-4">Vì sao nên chọn Combo Rực Rỡ?</h6>
+                <ul>
+                    <li>Gà rán giòn rụm, không bị ngấy</li>
+                    <li>Gia vị đậm đà, phù hợp khẩu vị người Việt</li>
+                    <li>Giá cả hợp lý, thích hợp cho nhóm bạn và gia đình</li>
+                </ul>
+
+                <p>
+                    Combo hiện đang được nhiều khách hàng yêu thích.
+                    Hãy để lại bình luận để chia sẻ cảm nhận của bạn về món gà này nhé!
+                </p>
+
+            </main>
+
+            <!-- RIGHT: COMMENT -->
+            <aside class="col-md-4">
+
+                <h5 class="text-black fw-bold mb-3">
+                    Bình luận & đánh giá
+                </h5>
+
+                <!-- FORM COMMENT -->
+                <form class="mb-4">
+                    <div class="mb-3">
+                        <textarea class="form-control" rows="3"
+                            placeholder="Viết cảm nhận của bạn về món gà này..."></textarea>
+                    </div>
+                    <button class="btn btn-danger text-white w-100">
+                        Gửi bình luận
+                    </button>
+                </form>
+
+                <!-- COMMENT LIST -->
+                <div class="border rounded p-3">
+                    <h6 class="fw-bold mb-3">Danh sách bình luận</h6>
+
+                    <div class="mb-3">
+                        <strong>Nguyễn Văn A</strong>
+                        <p class="mb-1 small">
+                            Gà giòn ngon, ăn rất đã miệng. Combo này giá hợp lý.
+                        </p>
+                    </div>
+
+                    <div class="mb-3">
+                        <strong>Trần Thị B</strong>
+                        <p class="mb-1 small">
+                            Món gà rán rất ngon, gia vị vừa ăn, sẽ ủng hộ thêm.
+                        </p>
+                    </div>
+                </div>
+
+            </aside>
+        </div>
+    </div>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
